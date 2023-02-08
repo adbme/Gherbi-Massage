@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/survol.css">
+    <link rel="stylesheet" href="/bougerImageSurvol.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="LOGO1">
+            <H4>SHARE</H4>
+        </div>
+
+        <div class="LOGO2">
+            <H1>S</H1>
+        </div>
+
+        <div class="LOGO3">
+            <H4>TORM</H4>
+        </div>
+
+        <div class="LIEN1">
+            <p>LIEN 1</p>
+        </div>
+        <div class="LIEN2">
+            <p>LIEN 2</p>
+        </div>
+        <div class="LIEN3">
+            <p>LIEN 3</p>
+        </div>
+
+    </header>
+    <main>
+        <div class="container1 imgAcc">
+            <video loop autoplay muted type="video/mp4" width="100%" height="auto"
+                src="/video/Pexels Videos 2772930.mp4">
+
+            </video>
+        </div>
+
+        <div class="container2">
+            <div class="none">
+                <a href="/Gherbi Massage/GherbiMassage.html" id="subscribe-button" class="lakakaLink"
+                    accesskey="f">Lakaka</a>
+
+            </div>
+
+            <form id="form1">
+                <label for="homepage">ADD A LINK TO YOUR NOTE</label>
+                <input type="url" id="homepage" name="homepage" placeholder="Enter your link"><br><br>
+            </form>
+
+            <form class="form2">
+                <label for="">CHOOSE A FOLDER COLOR</label>
+                <button class="colorRed divColor"></button>
+                <button class="colorOrange divColor"></button>
+                <button class="colorGreen divColor"></button>
+                <button class="colorLightBlue divColor"></button>
+                <button class="colorBlue divColor"></button>
+                <button class="colorPurple divColor"></button>
+                <button class="colorDefault divColor">DEFAULT</button>
+            </form>
+        </div>
+
+
+
+
+        <div class="lienSurvol">Voici une fonctionnalité suvolez moi pour comprendre
+            <span class="bulle">Une explication</span>
+        </div>
+        <img class="nokiaBouge" src="/image/nokia.jpg" alt="">
+
+        <script>
+            document.getElementById('form1').addEventListener('submit', function (event) {
+                event.preventDefault(); // Empêche la page de se recharger
+                var url = document.getElementById('homepage').value;
+                window.location.href = url; // Redirige l'utilisateur vers l'url saisie
+            });
+
+        </script>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

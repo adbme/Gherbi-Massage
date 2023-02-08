@@ -1,0 +1,84 @@
+html {
+    scroll-behavior:smooth;
+  }
+header{
+    background-color: #333333;
+    color: #DDDDDD;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: 2000px;
+}
+.logo3{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.logo1{
+    margin-top: 10px;
+}
+
+
+.lakaka{
+    width: 50%;
+}
+
+.none{
+    display: none;
+}
+
+.input{
+    width: 20px;
+    height: 20px;
+}
+
+.container1{
+    position: relative;
+}
+.container1{
+    position: relative;
+}
+
+
+.form2{
+    display: flex;
+    align-items: center;
+}
+
+.colorRed{
+    background-color: #E57071;
+}
+.colorOrange{
+background-color: #FDA970;
+}
+.colorGreen{
+    background-color: #6EE363;
+}
+.colorLightBlue{
+    background-color:#7EE2E7;
+}
+
+.colorBlue{
+    background-color: #4D8CDA;}
+
+.colorPurple{
+    background-color: #7D59CB;
+}
+
+.colorDefault{
+background-color: #FAD977;
+font-weight: 400;
+font-size: 25px;
+}
+.divColor{
+    border: solid 3px;
+    height: 105px;
+    width: 130px;
+    margin: -3px;
+    cursor: pointer;
+}
+
